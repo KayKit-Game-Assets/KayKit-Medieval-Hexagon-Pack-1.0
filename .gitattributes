@@ -1,0 +1,15 @@
+# Set line endings
+* text=auto eol=lf
+
+# Only include the addons folder when downloading from the Asset Library.
+/**        export-ignore
+/addons    !export-ignore
+/addons/** !export-ignore
+/addons/kaykit_medieval_hexagon_pack/** export-ignore
+/addons/kaykit_medieval_hexagon_pack/LICENSE.txt !export-ignore
+/addons/kaykit_medieval_hexagon_pack/Assets !export-ignore
+/addons/kaykit_medieval_hexagon_pack/Assets/** !export-ignore
+/addons/kaykit_medieval_hexagon_pack/Assets/fbx export-ignore
+/addons/kaykit_medieval_hexagon_pack/Assets/fbx(unity) export-ignore
+/addons/kaykit_medieval_hexagon_pack/Textures !export-ignore
+/addons/kaykit_medieval_hexagon_pack/Textures/** !export-ignore
